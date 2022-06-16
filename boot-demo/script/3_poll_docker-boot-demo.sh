@@ -1,10 +1,10 @@
 #!/bin/bash
 while true
 do 
-  curl --connect-timeout 1 -s 'http://localhost:8080/hello'
+  curl --connect-timeout 1 -s 'http://localhost:8082/hello'
   sleep 1;
-  curl --connect-timeout 1 -s 'http://localhost:8080/bonjour'
+  curl --connect-timeout 1 -s 'http://localhost:8082/bonjour'
   sleep 1; 
-  curl --connect-timeout 1 -s 'http://localhost:8080/hola'
+  curl --connect-timeout 1 -s 'http://localhost:8082/hola'
   sleep 1;  
 done
