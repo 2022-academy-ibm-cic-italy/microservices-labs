@@ -8,7 +8,7 @@ command="./mvnw clean compile package"
 echo $command
 $command
 
-command="docker build -t ibm-cloud-academy/num-generator:v1 ."
+command="docker build -t ibm-cloud-academy/greetings:v1 ."
 echo $command
 $command
 
